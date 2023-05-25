@@ -96,6 +96,24 @@ form > .campo{
     display: none;
 }
 
+.campo > input{
+    background-color: rgb(243, 241, 239);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-2px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.campo > i{
+    color: rgb(99, 47, 47);
+    font-size: 1.5em;
+    width: 40px;
+    padding: 5px;
+}
+
 form > a.botao > i{
     font-size: 0.8em;
 }
